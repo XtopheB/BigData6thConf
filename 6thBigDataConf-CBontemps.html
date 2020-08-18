@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Teaching Big Data?</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Christophe Bontemps" />
+    <link href="libs/remark-css/kunoichi.css" rel="stylesheet" />
+    <link href="libs/remark-css/ninjutsu.css" rel="stylesheet" />
+    <link href="libs/animate.css-xaringan/animate.slide_left.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets\custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Teaching Big Data?
+## <em>6th International Conference on Big Data for Official Statistics</em>
+### Christophe Bontemps
+### <strong>Statistical Institute for Asia and the Pacific</strong>
+### <em>2020/09/02</em>
+
+---
+
+
+
+
+
+
+
+class: split-two white no-animation
+
+.column.bg-main1[.content.vmiddle.left[
+
+# Disclaimer
+
+&lt;br&gt;
+
+###I joined the SIAP on .orange[June 2020]! 
+
+### I joined the UN on .orange[**June 2020**]!
+
+### I have no working experience within an NSO
+
+&lt;br&gt;
+
+### &gt; *The views expressed here are biased by 20+ years of academic work!*
+
+
+]]
+.column.bg-main3[.content.vmiddle.center[
+&lt;center&gt;
+
+ &lt;img src="images/SIAP_logo_Big.png", width="70%"&gt;
+
+]]
+
+???
+
+Notes for slides on Disclaimer....
+
+--
+
+---
+
+layout: false
+class: bg-main3 split-30 hide-slide-number animated slideInRight fadeOutLeft
+.column[
+
+]
+.column.slide-in-right[.content.vmiddle[
+.sliderbox.shade_main.pad1[
+.font5[Teaching?]
+]
+]]
+
+---
+
+class: split-two white no-animation
+
+.column.bg-main1[.content.vmiddle.center[
+
+# Teaching *vs* Training
+
+
+&lt;br&gt;
+
+### Teaching: to provide knowledge, instruction or information
+
+&lt;br&gt;
+### Training: to develop abilities through practice with instruction or supervision 
+
+]]
+.column.bg-main3[.content.vmiddle.center[
+
+&lt;img src="images/teaching_vs_learning.png", width="100%"&gt;
+
+]]
+???
+
+## Notes for slides on Teaching**
+* Siap do both
+* this session is on training but... 
+
+--
+
+---
+
+class: middle center bg-main1
+
+&lt;img src="images/", width="70%"&gt;
+
+
+---
+
+# .purple[What *is* Machine Learning?]
+
+&lt;br&gt;
+
+### Machine learning is concerned with finding functions `\(Y=f(X)+\epsilon\)` that best **predict** outputs (responses), given data inputs (predictors).
+
+&lt;br&gt;
+
+&lt;center&gt;
+
+  &lt;img src="images/ml-process.png", width="50%"&gt;
+
+&lt;/center&gt;
+
+&lt;br&gt;
+
+### Mathematically, Machine Learning problems are simply *optimisation* problems, in which we will use .purple[<i class="fab  fa-r-project "></i>] to help us solve!
+
+---
+
+# .purple[Why do Machine Learning in <i class="fab  fa-r-project "></i>?]
+
+&lt;br&gt;
+
+&lt;center&gt;
+
+  &lt;img src="images/python-r-other-2016-2017.jpg", width="70%"&gt;
+
+&lt;/center&gt;
+
+---
+
+class: split-two white 
+
+.column.bg-main1[.content[
+
+&lt;br&gt;
+
+# Types of Learning
+
+&lt;br&gt;
+
+## .orange[Supervised Learning]
+
+### - We have knowledge of class labels or values.
+
+### - Goal: train a model using known class labels to predict class or value label for a new data point.
+
+
+## .orange[Unsupervised Learning]
+
+### - No knowledge of output class or value –data is unlabelled.
+
+### - Goal: determine data patterns/groupings.
+
+
+]]
+
+.column[.content.vmiddle.center[
+
+&lt;img src="images/learning.png", width="80%"&gt;
+
+##### .purple[Credit to Towards Data Science]
+
+]]
+
+
+---
+
+layout: false
+class: bg-main3 split-30 hide-slide-number
+
+.column[
+
+]
+.column.slide-in-right[.content.vmiddle[
+.sliderbox.shade_main.pad1[
+.font5[Regression]
+]
+]]
+
+---
+
+class: split-two white 
+
+.column.bg-main1[.content[
+&lt;br&gt;
+
+# A simple prediction problem
+
+### Consider the simulated dataset `Income`, which looks at the relationship between `Education` (years) and `Income` (thousands).
+
+
+```r
+data &lt;- read.csv("data/Income.csv")
+head(data)
+```
+
+```
+##   Education   Income
+## 1  10.00000 26.65884
+## 2  10.40134 27.30644
+## 3  10.84281 22.13241
+## 4  11.24415 21.16984
+## 5  11.64548 15.19263
+## 6  12.08696 26.39895
+```
+
+### What shape is the relationship? Can we build a function to predict the value of a new data point?
+
+]]
+
+.column[.content.vmiddle.center[
+
+
+&lt;img src="6thBigDataConf-CBontemps_files/figure-html/unnamed-chunk-2-1.png" width="504" /&gt;
+
+
+]]
+
+
+---
+
+class: middle center bg-main1
+
+## Linear Regression to the Rescue!
+
+&lt;img src="images/ols.png", width="70%"&gt;
+
+---
+
+class: pink-code
+
+# .purple[What line is optimal?]
+
+&lt;br&gt;
+
+### We can use a .purple[**linear function**] to describe our data and .purple[**predict**] a new data point. The question is, what is the .purple[*optimal line*] ?
+
+--
+
+### One way to do this is find the slope and intercept that .purple[*minimise*] the sum of the squared residuals between the line and our data points:
+
+&lt;center&gt;
+&lt;img src="images/rss.png", width="25%"&gt;
+&lt;/center&gt;
+
+
+### We can visualise this optimisation process using a .purple[**Shiny App**] [here](http://43.240.99.178:3838/sample-apps/LinearRegression/).
+
+--
+
+
+```r
+knitr::knit_exit()
+```
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

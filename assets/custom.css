@@ -1,0 +1,83 @@
+/* customising title background needs to be via remark-slide due to how default title slides are defined*/
+  .remark-slide {
+    background-image: url("../bkg/bg1.png");
+    background-size:  100%, cover;
+    background-position: center, 100%;
+    background-repeat: no-repeat;
+  }
+
+/* We are redefining the style of kunoichi  */
+:root {
+    --main-color1: #0385a8;   /* SIAP Blue  */
+    --main-color2: #a9f5e8;   /* Green blue */
+    --main-color3: #d3ebe7;   /* Ths is the second color used...*/
+    --main-color4: #CE93D8;
+    --main-color5: white;
+    --text-color1: white;
+    --text-color2: white;
+    --text-color3: white;
+    --text-color4: white;
+    --text-color5: black;
+    --text-opacity: white;
+    --link-color: #ecadec;
+    --alert-color: #CF3C18;
+    --text-alert: white;
+    --code-background: #f8f8f8;
+    --code-inline-color: #FFD740;
+    --code-text-color: black;
+    --code-highlight: rgba(136, 57, 138, 0.3);
+    --color-opacity70: #0385a8;   /* For title slide- SIAP blue */
+    --color-opacity50: #02bbed;
+    --color-opacity30: #d3eaf0;
+    --logo: url("../img/SIAP_logo_Big.png");
+}
+
+
+
+.title-slide {
+  width: 60%;
+  text-align: left!important;
+  height:100%;
+  display: table;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--color-opacity70);
+  opacity: 0.85;                 /* For title Opacity */
+  color: white;
+  padding: 0;
+  border-left-color: white;
+  border-left-style: solid;
+  border-left-width: 0.5em;
+}
+
+
+
+
+
+.width70 {
+  width: 70%;
+}
+
+.borderit {
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
+}
+
+.p-canvas-webgl {
+  position: fixed;
+  z-index: 1;
+  top: 0; left: 0;
+}
+
+.remark-code-line{
+  font-size: 80%;
+}
+
+.pink-code * > .remark-inline-code  {
+  color: #E61771!important;
+}
+
+.content > h4,h5,h6
+{ padding-left: 2%;padding-right: 2%;}

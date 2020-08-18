@@ -33,12 +33,7 @@ livedemosign <- function(top, left, deg) {
 
 ```
 
-```{r xaringan-animate-all, echo=FALSE}
-# Set animation for all slides in the presentation 
-xaringanExtra::use_animate_all("slide_left")
-```
-
-class: split-two white no-animation
+class: split-two white
 
 .column.bg-main1[.content.vmiddle.left[
 
@@ -54,7 +49,8 @@ class: split-two white no-animation
 
 <br>
 
-### > *The views expressed here are biased by 20+ years of academic work!*
+### > The views expressed here are biased by 20+ years of academic work!
+
 
 
 ]]
@@ -65,16 +61,13 @@ class: split-two white no-animation
 
 ]]
 
-???
-
-Notes for slides on Disclaimer....
-
---
 
 ---
 
+
 layout: false
-class: bg-main3 split-30 hide-slide-number animated slideInRight fadeOutLeft
+class: bg-main3 split-30 hide-slide-number
+
 .column[
 
 ]
@@ -86,39 +79,33 @@ class: bg-main3 split-30 hide-slide-number animated slideInRight fadeOutLeft
 
 ---
 
-class: split-two white no-animation
+class: split-two white
 
 .column.bg-main1[.content.vmiddle.center[
 
 # Teaching *vs* Training
 
+<br>
+
+### This two part R-Ladies workshop is designed to give you a small taster into the large field that is known as .orange[**Machine Learning**]! Today, we will cover supervised learning techniques (explained later), and next week we will cover model performance assessment.
 
 <br>
 
-### Teaching: to provide knowledge, instruction or information
-
-<br>
-### Training: to develop abilities through practice with instruction or supervision 
 
 ]]
 .column.bg-main3[.content.vmiddle.center[
-
-<img src="images/teaching_vs_learning.png", width="100%">
+<center>
+ <img src="images/ISLR.jpg", width="70%">
 
 ]]
-???
 
-## Notes for slides on Teaching**
-* Siap do both
-* this session is on training but... 
 
---
 
 ---
 
 class: middle center bg-main1
 
-<img src="images/", width="70%">
+<img src="images/mlmeme.jpg", width="70%">
 
 
 ---
