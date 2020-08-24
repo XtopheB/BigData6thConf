@@ -19,7 +19,7 @@
     --text-color4: white;
     --text-color5: black;
     --text-opacity: white;
-    --link-color: #ecadec;
+    --link-color: #f29852;      /* was : #ecadec;  Changed to orange here !)
     --alert-color: #CF3C18;
     --text-alert: white;
     --code-background: #f8f8f8;
@@ -29,9 +29,14 @@
     --color-opacity70: #0385a8;   /* For title slide- SIAP blue */
     --color-opacity50: #02bbed;
     --color-opacity30: #d3eaf0;
-    --logo: url("../img/SIAP_logo_Big.png");
+    --logo: url("../images/SIAP_logo_Big.png");
 }
 
+/* We are redefining the colrs of ninjutsu.css */
+
+
+
+.SiapCol{color: #0385a8; }
 
 
 .title-slide {
