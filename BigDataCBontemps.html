@@ -389,7 +389,6 @@ We cannot affort to let people use software, black boxes, or programs without a 
 
 
 
-
 ---
 layout: false
 class: bg-main3 split-30 hide-slide-number
@@ -408,81 +407,25 @@ class: bg-main3 split-30 hide-slide-number
 Xun Kuang (Chinese Confucian philosopher)
 
 
+
+
 ---
-
-class: split-two white 
-
-.column.bg-main1[.content[
-&lt;br&gt;
-
-# A simple prediction problem
-
-### Consider the simulated dataset `Income`, which looks at the relationship between `Education` (years) and `Income` (thousands).
-
-
-```r
-data &lt;- read.csv("data/Income.csv")
-head(data)
-```
-
-```
-##   Education   Income
-## 1  10.00000 26.65884
-## 2  10.40134 27.30644
-## 3  10.84281 22.13241
-## 4  11.24415 21.16984
-## 5  11.64548 15.19263
-## 6  12.08696 26.39895
-```
-
-### What shape is the relationship? Can we build a function to predict the value of a new data point?
-
-]]
-
-.column[.content.vmiddle.center[
-
-
-&lt;img src="BigDataCBontemps_files/figure-html/unnamed-chunk-2-1.png" width="504" /&gt;
-
-
-]]
+class: middle center bg-main1
+# Leftovers
+# There *are* Many .orange[Opportunities]
+* Easier  access  to data, an in real time 
+	- Electricity to monitor people in house (Denmark)
+	- Phone mobility
+* NSOs proved they are very capable to provide insights for policy makers
+* NSOs proved they are the **trusted** source of information
 
 
 ---
 
 class: middle center bg-main1
-
-## Linear Regression to the Rescue!
-
-&lt;img src="images/ols.png", width="70%"&gt;
-
+# *All Knwowledge is an answer to a question*
+### Gaston Bachelard (french philosopher) 
 ---
-
-class: pink-code
-
-# .purple[What line is optimal?]
-
-&lt;br&gt;
-
-### We can use a .purple[**linear function**] to describe our data and .purple[**predict**] a new data point. The question is, what is the .purple[*optimal line*] ?
-
---
-
-### One way to do this is find the slope and intercept that .purple[*minimise*] the sum of the squared residuals between the line and our data points:
-
-&lt;center&gt;
-&lt;img src="images/rss.png", width="25%"&gt;
-&lt;/center&gt;
-
-
-### We can visualise this optimisation process using a .purple[**Shiny App**] [here](http://43.240.99.178:3838/sample-apps/LinearRegression/).
-
---
-
-
-```r
-knitr::knit_exit()
-```
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
