@@ -15,7 +15,7 @@
     --main-color5: white;
     --text-color1: white;
     --text-color2: white;
-    --text-color3: white;
+    --text-color3: #0385a8;   /* to have a higher contrast  */
     --text-color4: white;
     --text-color5: black;
     --text-opacity: white;
@@ -37,6 +37,7 @@
 
 
 .SiapCol{color: #0385a8; }
+.SiapBgCol{color: #d3ebe7;}
 
 
 .title-slide {

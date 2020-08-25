@@ -156,7 +156,9 @@ class: middle center bg-main1 no-animation
 
 ---
 class: top left no-animation
+ .center[
 # There are Many .SiapCol[Challenges:]
+]
 
 ##  .SiapCol[1- *Methodological* challenges:] 
 ### How to integrate non-traditional data into official statistics? 
@@ -185,18 +187,22 @@ Challenge of Merging various source into official Statistics
   * New partnerships and stakeholders
 
 --
-
+ .right[
 ## .SiapCol[2-*Technical* challenges]
 ### How to access to the data?
 ### How to visualize and process the data (*Volume, Variety*)
 ### How to extend the coverage? (*Predictive tools*)
 ### How to reproduce/repeat the analysis
+]
 
 --
+
 ## .SiapCol[3- *Human* challenges] 
 --
 
+ .right[
 ## .SiapCol[4- *Financial* challenges] 
+]
 
 ---
 
@@ -233,6 +239,8 @@ class: split-two white no-animation
 
 ### Seminar on .orange[Statistical Capacity Building for New Data Sources] (2017)
 
+### and.orange[more] to come...
+
 ]]
 
 .column[.content.vmiddle.center[
@@ -256,15 +264,19 @@ class: split-two white no-animation
 
 <br>
 
-# Many resources are already out there
+# Many resources are already out there:
 
 <br>
 
 ## At the UN [Big Data GWG Marketplace](https://marketplace.officialstatistics.org/datasets)
 ## At the [UN-SDG:Learn](https://www.unsdglearn.org/microlearning/?_sf_s=big+data)
 
-## At the [World Bank: Open Learning platform](https://olc.worldbank.org/search?search_api_views_fulltext=big&items_per_page=20&sort_by=field_course_weightage))
-## At the Asian Development Bank
+## At the [World Bank](https://olc.worldbank.org/search?search_api_views_fulltext=big&items_per_page=20&sort_by=field_course_weightage): Open Learning
+
+## At [Eurostat](https://ec.europa.eu/eurostat/cros/content/estp-training-courses_en)
+
+# .orange[+] 
+## All MOOCs platform, tutorials, universities,...
 ## [...]()
 
 ]]
@@ -282,19 +294,28 @@ class: split-two white no-animation
   </tr>
   <tr>
     <td><img src="images/WorldBankElearning.jpg", width="50%"></td> 
-    <td><img src="images/WorldBankElearning.jpg", width="50%"></td>
+    <td><img src="images/Eurostat-Elearning.jpg", width="50%"></td>
   </tr>
   <tr>
     <td><img src="images/E-learning-WorldBank.gif", width="120%"></td>
-    <td><img src="images/E-learning-WorldBank.gif", width="120%"></td>
+    <td><img src="images/E-learningPortals-Eurostat.gif", width="120%"></td>
   </tr>
 </table>
 
 ]]
 
 ---
-class: middle center bg-main1 no-animation
-# So, which courses should we built? 
+
+layout: false
+class: bg-main3 split-30 hide-slide-number animated slideInRight fadeOutLeft
+.column[
+
+]
+.column.slide-in-right[.content.vmiddle[
+.sliderbox.shade_main.pad1[
+.font5[What Should we Do?]
+]
+]]
 
 
 ---
@@ -413,7 +434,34 @@ class: bg-main3 split-30 hide-slide-number
 ]
 ]]
 ---
+???
+There is a discussion/ reflexion on how to improve our e-course (**New LMS**)
+- *Micro learning* We don't need to follow a 4 week course to apply web-scrapping
+- *Social learning* We have tons of very good examples from NSOs themselves
+  - We already introduced Webinars
+  - Invole the learners with case studies
+  - Make learners work in groups (**YES**, this is possible online)
+  - Have online discussions (not at the end of the course)
+- Engagement: Split course in phases 1- we train, 2- Learners apply 3- They show/explain  4 (optional) - we evaluate! 
 
+--
+.center[# Variety is key!]
+
+## Micro-learning
+
+--
+## Social learning (cross-fertilization)
+
+-- 
+
+## Engage learners into action
+
+-- 
+
+## Introduce case studies/ peer reviews / Team work
+
+
+---
 # “Tell me and I forget, teach me and I may remember, involve me and I learn."
 Xun Kuang (Chinese Confucian philosopher)
 
