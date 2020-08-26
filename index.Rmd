@@ -93,10 +93,10 @@ class: split-two white no-animation
 
 <br>
 
-### *Teaching*: to provide knowledge, instruction or information
+### .orange[Teaching]: to provide knowledge, instruction or information
 
 <br>
-### *Training*: to develop abilities through practice with instruction or supervision 
+### .orange[Training]: to develop abilities through practice with instruction or supervision 
 
 ]]
 .column.bg-main3[.content.vmiddle.center[
@@ -110,7 +110,7 @@ class: split-two white no-animation
 
 ## Notes for slides on Teaching**
 * SIAP do both
-* this session is on training but... 
+* this session is on training but... knwoledge is important (*come back to that later*) 
 
 
 ---
@@ -121,7 +121,7 @@ class: bg-main3 split-30 hide-slide-number animated slideInRight fadeOutLeft
 ]
 .column.slide-in-right[.content.vmiddle[
 .sliderbox.shade_main.pad1[
-.font5[Why Teaching Big Data?]
+.font5[Why Teaching Big Data? ]
 ]
 ]]
 
@@ -155,12 +155,12 @@ class: middle center bg-main1 no-animation
 # NSOs see in Big Data great opportunities but face challenges
 
 ---
-class: top left no-animation
+class: top left no-animation bg-main3
  .center[
-# There are Many .SiapCol[Challenges:]
+# There are Many .orange[Challenges:]
 ]
 
-##  .SiapCol[1- *Methodological* challenges:] 
+##  .orange[Methodological] challenges: 
 ### How to integrate non-traditional data into official statistics? 
 ### What are the sample biases and weights? 
 ### Which quality? What confidence?
@@ -175,7 +175,7 @@ Challenge of Merging various source into official Statistics
 **What is the Gold standard of good quality of data for other data than Surveys** 
 
 ### Technical challenges
- - New techniques for acquisition(web scrapping, satellite map acquqition, mobiel phone positionning, electricity bills, scanner data, social media threads, networks  ) 
+ - New techniques for acquisition(web scrapping, satellite map acquisition, mobile phone positioning, electricity bills, scanner data, social media threads, networks  ) 
  - Data visualization tools and Dashboards
  - New tools (Python, R, Julia)
  - New methods Text analysis, predictive tools, 
@@ -188,8 +188,8 @@ Challenge of Merging various source into official Statistics
 
 --
  .right[
-## .SiapCol[2-*Technical* challenges]
-### How to access to the data?
+## .orange[Technical] challenges
+### How to access to **Big** Data?
 ### How to visualize and process the data (*Volume, Variety*)
 ### How to extend the coverage? (*Predictive tools*)
 ### How to reproduce/repeat the analysis
@@ -197,11 +197,11 @@ Challenge of Merging various source into official Statistics
 
 --
 
-## .SiapCol[3- *Human* challenges] 
+## .orange[Human] challenges 
 --
 
  .right[
-## .SiapCol[4- *Financial* challenges] 
+## .orange[Financial] challenges 
 ]
 
 ---
@@ -213,7 +213,7 @@ class: bg-main3 split-30 hide-slide-number animated slideInRight fadeOutLeft
 ]
 .column.slide-in-right[.content.vmiddle[
 .sliderbox.shade_main.pad1[
-.font5[What Should we Teach?]
+.font5[What Should we Teach? ]
 ]
 ]]
 
@@ -225,21 +225,23 @@ class: split-two white no-animation
 
 <br>
 
-# Many resources are already out there
+# Many resources .orange[at the SIAP:]
+
 
 <br>
 
-## At the SIAP:
+## .orange[**Big Data**] Course .font_cool[(with Kostat), since 2016]
+##.font_cool[includes .orange[GIS], .orange[webscrapping], .orange[text mining], .orange[scanner data], .orange[...]]
 
-### .orange[Big Data] Course (with Kostat)
+## .orange[**ICT**] Innovations for Modernizing Official Statistical Systems .font_cool[(since 2017)]
 
-### .orange[Data Visualization] (with Paris2!)
+## .orange[**Data Visualization**] .font_cool[(with Paris2!)]
 
-### .orange[ICT] for Official Statistics
+## Seminar on Statistical Capacity Building for .orange[**New Data Sources**] .font_cool[(since 2017)]
 
-### Seminar on .orange[Statistical Capacity Building for New Data Sources] (2017)
+<br>
 
-### and.orange[more] to come...
+## and .orange[more] to come also on our [new LMS](https://siap-elearning.org/) ...
 
 ]]
 
@@ -254,7 +256,12 @@ class: split-two white no-animation
 
 ]]
 ???
-- Statistics Korea regional training
+Many course at SIAP for quite some time now
+- Big Data course with Statistics Korea (regional training)
+- We had a more general course on **ICT Innovations for Modernizing Official Statistical Systems**
+- includes Big Data (with Python); GIS (Qgis);  webscrapping 
+
+**NOW** We will adapt these materials for online courses thanks to our **new LMS**
 
 ---
 
@@ -264,7 +271,7 @@ class: split-two white no-animation
 
 <br>
 
-# Many resources are already out there:
+# Many resources .orange[out there]:
 
 <br>
 
@@ -273,10 +280,10 @@ class: split-two white no-animation
 
 ## At the [World Bank](https://olc.worldbank.org/search?search_api_views_fulltext=big&items_per_page=20&sort_by=field_course_weightage): Open Learning
 
-## At [Eurostat](https://ec.europa.eu/eurostat/cros/content/estp-training-courses_en)
+## At [Eurostat](https://ec.europa.eu/eurostat/cros/content/estp-training-courses_en) .orange[...]
 
 # .orange[+] 
-## All MOOCs platform, tutorials, universities,...
+## All .orange[MOOCs] platform, tutorials, .orange[online] universities,...
 ## [...]()
 
 ]]
@@ -313,7 +320,7 @@ class: bg-main3 split-30 hide-slide-number animated slideInRight fadeOutLeft
 ]
 .column.slide-in-right[.content.vmiddle[
 .sliderbox.shade_main.pad1[
-.font5[What Should we Do?]
+.font5[What Should we Focus On? ]
 ]
 ]]
 
@@ -322,7 +329,7 @@ class: bg-main3 split-30 hide-slide-number animated slideInRight fadeOutLeft
 class: split-two white no-animation
 .column.bg-main1[.content[
 
-#  .right[Many courses should include..]
+#  .right[Many courses include..]
 
 <br>
 
@@ -331,24 +338,24 @@ class: split-two white no-animation
 
 <br>
 
-### Gender Statisitics course 
-#### Spatial Data Integration + predictive tools 
+### Course Gender Statistics (UNSD & UNWOMEN) 
+#### .orange[Satellite Data] Integration + .orange[predictive analysis] 
 <br>
 
 ### System of Environmental-Economic Accounting
-#### Satelite images integration (land recognition/evolution)
+#### .orange[Satellite images] integration, .orange[land recognition] 
 <br>
 
 ### Statistical Business Registers 
-#### Webscrapping, text analysis
+#### .orange[Web-scrapping], .orange[text analysis]
 
 <br>
-### Data Visualisation
-#### Maps, Big Data Visualisation, Dashboards
+### Data Visualization
+#### .orange[Maps], Big Data Visualization, .orange[Dashboards]
 
 <br>
 ### Metadata
-#### Big Data Metadata
+#### .orange[Big Data Metadata]
 
 <br>
 ####  etc.
@@ -367,58 +374,71 @@ class: split-two white no-animation
 
 ---
 class: top left bg-main1 no-animation
-# So, which courses should we built? *A personal view*
+
+# .center[So, what should we .orange[focus] on?]
+### .center[(*A personal view*)]
 
 
 ???
-* **Rq:** Soft skills are an important component (see Covid-19) 
+* **Rq:**: **Soft skills** are an important component (see Covid-19) 
   * how to negotiate a contract with a data provider?
-  * How to disseminte/communicate? Etc 
-  but I will  focus on Technical Skills.
+  * How to disseminate/communicate? Etc 
+  but I will manly focus on Statistics
 
-* First , adapt **everything** to online teaching! (I willreturn to that in a minute!)
-  * SIAP has been doing e-learning since 2013
+* First , adapt **everything** to online teaching! (I will return to that in a minute!)
+  * **SIAP has been doing e-learning since 2013**
 
 
 * Obviously **New methods**  and here I talk of **Teaching** --> knowledge
 
-We cannot affort to let people use software, black boxes, or programs without a **good understanding of the statistical fundations!!**
+> We cannot afford to let people use software, black boxes, or programs without a > **good understanding of the statistical foundations!!**
 
-* Many New source have **spatial component**
+#### Methods
+* Integration is tricky, biaises, trust --> quality data
+* Statistical learning to avoid "black box" statistics: **Big Data literacy**
+* Many New source have **spatial component**, not easy to disaggrate or aggregate spatialy 
+* Decision-based statistics are visual (Covid-19), how do people/politicians understand that? 
 
 --
  
 ## .orange[New methods]
 --
 
-### Spatial statistics 
---
-
-### Predictive methods (ML, IA,...)
---
-
-### Methods to adjust for selection biais
---
-
-### Nonparametrics
+### Data integration .font_cool[(*Adjusting for selection bias, coverage*, ...)]
 
 --
 
-### Big Data Visualization
-
+### Statistical Learning (ML, IA,...) .font_cool[(*Big Data literacy*)]
 
 --
-## .orange[Practical training]
+
+### Spatial Statistics  .font_cool[(Spatial aggregation/disaggregation)]
+
 --
 
-### Case studies: Cross fertilization using NSOs examples
+### Big Data Visualization .font_cool[(*Visual literacy*)]
+
+### .orange[...]
+
+--
+## .right[ .orange[Practical training]]
+
+--
+### .right[Data Gathering .font_cool[(*satellite data, webscrapping, mobile phone*,... )]]
+
+--
+### .right[Ethics/legal issues .font_cool[(*Data dissemination, Bias in IA*,...)]]
+
 --
 
-### Statistical Workflows (Notebooks, *data-driven-documents*)
+### .right[Statistical Workflows .font_cool[(*Notebooks, data-driven-documents*)]]
 --
 
-### Collaborative practices (GitLabs, GitHub, Cloud computing)
+### .right[Collaborative practices .font_cool[(*GitLabs, GitHub, Cloud computing*)]]
 
+--
+
+### .right[.orange[...]]
 
 
 ---
@@ -433,39 +453,96 @@ class: bg-main3 split-30 hide-slide-number
 .font5[How to Teach?  (*online*)]
 ]
 ]]
+
 ---
+class: top left bg-main1 no-animation
+
+# .center[.orange[Variety] is key!]
+
 ???
-There is a discussion/ reflexion on how to improve our e-course (**New LMS**)
-- *Micro learning* We don't need to follow a 4 week course to apply web-scrapping
-- *Social learning* We have tons of very good examples from NSOs themselves
+There is a discussion/ reflection on how to improve our e-courses (**New LMS**)
+
+* *Micro learning* : Example: Sometimes, we don't need to follow a 4 week course to apply web-scrapping or  text analysis or draw a map..
+* Can be nice assets and a **self-paced** way of learning
+
+* *Social learning* We have tons of very good examples from NSOs themselves
   - We already introduced Webinars
-  - Invole the learners with case studies
+  - Involve the learners with case studies
   - Make learners work in groups (**YES**, this is possible online)
   - Have online discussions (not at the end of the course)
-- Engagement: Split course in phases 1- we train, 2- Learners apply 3- They show/explain  4 (optional) - we evaluate! 
+  
+* Engagement: Split course in phases 1- we train, 2- Learners apply 3- They show/explain  4 (optional) - we evaluate! 
 
 --
-.center[# Variety is key!]
 
-## Micro-learning
+
+## .orange[Micro]-learning
+### (short self-paced learning)
 
 --
-## Social learning (cross-fertilization)
 
--- 
+## .right[.orange[Social] learning]
+### .right[(cross-fertilization)]
 
-## Engage learners into action
+--
 
--- 
+## Learning-.orange[by-doing]
+### (Engage learners into action)
 
-## Introduce case studies/ peer reviews / Team work
+
+--
+
+## .right[.orange[Collaborative] learning]
+### .right[(Introduce case studies/ peer reviews / Team work)]
+
+--
+### .SiapCol[;-)]
+
+# .center[.orange[Innovative] learning]
+### .center[(Games? Contests? Simulations?...)]
 
 
 ---
-# “Tell me and I forget, teach me and I may remember, involve me and I learn."
-Xun Kuang (Chinese Confucian philosopher)
+class: top center bg-main1 no-animation
+
+<br>
+
+# “.orange[Tell me] and I forget,
+
+--
+
+# .orange[teach me] and I may remember, 
+
+--
+
+# .orange[involve me] and I learn."
+<br>
+### *Xun Kuang* (Chinese Confucian philosopher)
 
 
+---
+class: middle center bg-main3
+
+# .center[Visit SIAP's **new** [e-learning platform](https://siap-elearning.org/)]
+
+<center> <img src="images/SIAP_logo_Big.png", width="40%"> </center>
+<br>
+
+<br>
+<br>
+
+
+#### .bottom[.right[ [Christophe.bontemps@un.org](Christophe.bontemps@un.org) ] ]
+ 
+
+ 
+
+
+
+---
+class: middle center bg-main1
+---
+class: middle center bg-main1
 
 
 ---
@@ -482,6 +559,6 @@ class: middle center bg-main1
 ---
 
 class: middle center bg-main1
-# *All Knwowledge is an answer to a question*
+# *All Knowledge is an answer to a question*
 ### Gaston Bachelard (french philosopher) 
 ---
