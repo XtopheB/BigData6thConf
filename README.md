@@ -7,12 +7,12 @@ Here are the files used for my presentation ,
 Enjoy
 
 Christophe  
-<<<<<<< HEAD
+
 [christophe.bontemps@un.org](mailto:christophe.bontemps@un.org)
 
-
-### Thanks to   **RLadies Sydney** and to  **Emi Tanaka** for developing the *Kunoichi* xaringan theme (Yihui Xie), that I have very poorly tried to customize...
+---
+Thanks to   **RLadies Sydney** and to  **Emi Tanaka** for developing the *Kunoichi* xaringan theme (Yihui Xie), that I have very poorly tried to customize... 
 =======
-(christophe.bontemps@un.org)[mailto:christophe.bontemps@un.org]
+
 
 
