@@ -11,10 +11,8 @@ Christophe
 [christophe.bontemps@un.org](mailto:christophe.bontemps@un.org)
 
 
-Thanks to   **RLadies Sydney** and to  **Emi Tanaka** for developing the *Kunoichi* xaringan theme (Yihui Xie), that I have very poorly tried to customize...
+### Thanks to   **RLadies Sydney** and to  **Emi Tanaka** for developing the *Kunoichi* xaringan theme (Yihui Xie), that I have very poorly tried to customize...
 =======
 (christophe.bontemps@un.org)[mailto:christophe.bontemps@un.org]
 
 
-Thanks to   **RLadies Sydney** and to  **Emi Tanaka** for developing the *Kunoichi* xaringan theme (Yihui Xie),that I have very poorly tried to customize
->>>>>>> 8956c6a5922965b1ce554f4f4d4ade0174282f4e
